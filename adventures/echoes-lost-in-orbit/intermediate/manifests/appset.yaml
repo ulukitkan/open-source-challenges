@@ -6,7 +6,7 @@ metadata:
 spec:
   generators:
     - git:
-        repoURL: https://github.com/dynatrace-oss/open-source-challenges.git
+        repoURL: https://github.com/ulukitkan/open-source-challenges.git
         revision: HEAD
         directories:
           - path: adventures/echoes-lost-in-orbit/intermediate/manifests/overlays/*
@@ -18,7 +18,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/dynatrace-oss/open-source-challenges.git
+        repoURL: https://github.com/ulukitkan/open-source-challenges.git
         targetRevision: HEAD
         path: adventures/echoes-lost-in-orbit/intermediate/manifests/overlays/{{ path.basename }}
       destination:
